@@ -1,0 +1,17 @@
+# 显示与系统温控开关
+persist.sys.enable_templimit=false
+persist.sys.smartpower.display_thermal_temp_threshold=99
+ro.vendor.display.hwc_thermal_dimming=false
+ro.vendor.fps.switch.thermal=false
+ro.vendor.thermal.dimming.enable=false
+ro.thermal.iec.enable=false
+ro.vendor.mi_sf.pq_thermal=false
+
+# 极致性能：默认保守释放，不强制 performance governor
+# 想要彻底拉满可把 perf_enh_after_power-on 改为 ultra，或 max_perf_release 改为 Y，发热和耗电会明显增加
+suto.perf_enh_after_power-on=N
+suto.min_cpufreq_limit=N
+suto.max_perf_release=N
+
+# 关闭厂商启动/滚动提频温控阶梯
+persist.sys.turbosched.thermal_break.enable=false
