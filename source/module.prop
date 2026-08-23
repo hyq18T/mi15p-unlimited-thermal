@@ -1,0 +1,6 @@
+id=unlimited_thermal
+name=无限制去温控·极致性能
+version=v3.2.2
+versionCode=202608232
+author=酷安：槐蔭區 | Codex
+description=去除充电、无线充、亮度、Modem、WiFi等温控限制，CPU/GPU/DDR/Modem/CDSP/XO温控墙提至110000，不再写remove_temp_limit，避免重启卡55电量/50度，默认均衡调度，无后台进程
